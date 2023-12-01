@@ -33,11 +33,4 @@ jobs:
 
       - name: Build
         run: npm run build
-        continue-on-error: true
-
-      - name: Check Lint
-        run: |
-          if [ ${{ success() }} != 'true' ]; then
-            echo "La compilation a échoué."
-            exit 1
-          fi
+        
