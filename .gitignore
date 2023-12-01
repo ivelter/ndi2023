@@ -1,0 +1,21 @@
+node_modules/
+*.log
+
+# Permet de stocker du code si besoin
+archives/
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+
+# local env files
+.env*.local
