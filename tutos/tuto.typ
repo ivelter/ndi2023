@@ -26,15 +26,15 @@
 #show regex("[Gg][Ii][Tt][Hh][Uu][Bb]"): doc => link("https://github.com/", doc)
 
 = Notes
-Pour toutes les libs, logiciels et langages qui seront nommé dans ce tuto auront
+Toutes les libs, logiciels et langages qui seront nommés dans ce tuto auront
 *automatiquement un lien vers son site web respectif*. Exemple GIT.
 
 Vous pourrez continuer à suivre *sans devoir remontrer tout en haut du tuto*.
 
-À noté aussi que le mot `terminal` sur linux *est équivalent* à `Git bash` sur
-windows. Vous le verrez plus tard quand git sera installé
+À noter aussi que le mot `terminal` sur linux *est équivalent* à `Git bash` sur
+Windows. Vous le verrez plus tard quand git sera installé
 
-3 versions existe de ce document, une en noir et blanc classique, une autre
+3 versions existent de ce document, une en noir et blanc classique, une autre
 (celle ci) dans un thème clair mais pas blanc, et un dernier dans un thème plus
 sombre
 
@@ -98,7 +98,7 @@ terminal:
 sudo apt install git
 ```
 
-À noté que le `sudo` n'est pas forcément obligatoire pour votre système, cela
+À noter que le `sudo` n'est pas forcément obligatoire pour votre système, cela
 dépend énormément du setup de votre système. Fin de l'installation.
 
 === Fedora
@@ -109,7 +109,7 @@ Très similaire à Debian, il suffit d'effecturer cette commande dans un termina
 sudo dnf install git
 ```
 
-À noté que le `sudo` n'est pas forcément obligatoire pour votre système, cela
+À noter que le `sudo` n'est pas forcément obligatoire pour votre système, cela
 dépend énormément du setup de votre système. Fin de l'installation.
 
 === Arch Linux
@@ -120,7 +120,7 @@ Toujours aussi similaire, il suffit d'effectuer cette commande dans un terminal:
 sudo pacman -S git
 ```
 
-À noté que le `sudo` n'est pas forcément obligatoire pour votre système, cela
+À noter que le `sudo` n'est pas forcément obligatoire pour votre système, cela
 dépend énormément du setup de votre système. Fin de l'installation.
 
 == L'après Git
@@ -147,9 +147,9 @@ Maintenant que git est setup, nous allons avoir besoin du protagoniste de ce
 projet, NodeJS. C'est le logiciel qui permet de faire du javascript sans devoir
 lancer un navigateur. C'est la version local du JS.
 
-Il existe deux possibilité pour installer Node, soit directement par votre
+Il existe deux possibilités pour installer Node, soit directement par votre
 package manager (ou par lien direct avec windows), soit par #link("https://volta.sh")[Volta.sh],
-qui install un gestionnaire de version de node et de ses outils. Je vous
+qui installe un gestionnaire de version de node et de ses outils. Je vous
 conseille cette manière en général mais les deux tutos vous seront proposé.
 
 === Méthode une, sans Volta.sh
@@ -168,7 +168,7 @@ Ensuite exécuter l'installeur comme un installeur classique.
 }
 Beaucoup plus complexe, nous allons voir comment faire.
 
-Premièrement, lancez ces commande:
+Premièrement, lancez ces commandes:
 
 #long(```sh
 sudo apt-get update
@@ -197,7 +197,7 @@ Ensuite, il faut executer cette commande:
 Cette commande permet de rajouter NodeJS à la liste des paquets téléchargeable
 de votre pc.
 
-Et enfin pour finir, executez ces commandes
+Et enfin pour finir, exécutez ces commandes
 
 ```sh
 sudo apt-get update
@@ -279,7 +279,7 @@ chaque action avec gitub, soit vous ne mettez rien.
 Votre clef SSH est maintenant générée
 
 === Ajouter votre clef ssh
-Après l'avoir générée, il faut biensûr l'ajouter à votre gestionnaire de clef
+Après l'avoir générée, il faut bien sûr l'ajouter à votre gestionnaire de clef
 ssh
 
 ==== Windows
@@ -366,7 +366,7 @@ Ensuite, ouvrez un terminal dessus et tapez cette commande:
 }
 
 Cette commande va automatiquement télécharger le projet avec git initialisé.
-Cela vous évites de l'initialiser puis de relié le remote avec etc etc...
+Cela vous évites de l'initialiser puis de relier le remote avec etc etc...
 
 Il manque plus qu'à rentrer dans le projet! Il faut faire :
 
@@ -433,12 +433,12 @@ html, css et js.
 
 === public/
 Public est un dossier vide (pour le moment). Il contiendra tout ce qui concerne
-du code *static* tel que le favicon par exemple. Ce sont des données externe au
+du code *static* tel que le favicon par exemple. Ce sont des données externes au
 site lui même mais important !
 
 === src/app/
 Le protagoniste ! Ce dossier contient l'ensemble du code modifiable. Il permet
-de faire vivre le site web lui même. Il y a plusieurs fichier important à
+de faire vivre le site web lui même. Il y a plusieurs fichiers importants à
 regarder à l'intérieur.
 
 ==== src/app/page.js
@@ -462,7 +462,7 @@ Pour plus d'information sur la structure du projet lui même, visitez cette #lin
 === tutos/
 
 Le fichier source et l'output de ce tuto lui même. `config.json` permet de
-configurer selon vos choix (à noté que vous ne pouvez pas compiler ce tuto pour
+configurer selon vos choix (à noter que vous ne pouvez pas compiler ce tuto pour
 deux raisons, de 1 parce qu'il faut typst et de deux parce que la template est
 privée)
 
@@ -535,9 +535,9 @@ en même temps, il faut qu'on s'organise.
 4 principes important à connaitre:
 
 / Les commits: Ce sont les points de sauvegarde de votre code, comme pour un jeu vidéo c'est
-  important d'en faire plein avec des vrai noms pour ne pas se perdre
+  important d'en faire plein avec des vrais noms pour ne pas se perdre
 
-/ Les branches: C'est l'équivalent à plusieurs fichier de sauvegarde dans un jeu, vous pouvez
+/ Les branches: C'est l'équivalent à plusieurs fichiers de sauvegarde dans un jeu, vous pouvez
   avoir une partie en ayant fait une route génocide ou une autre partie en ayant
   fait une route pacifiste. Comme pour les commits, vous devez bien nommer ces
   branches pour pas qu'on se perdent.
@@ -643,5 +643,5 @@ La command est simple, il faut faire: ```sh
 npm run lint && npm run build
 ```
 
-Cela va vérifier si le projet suis bien les conventions de base puis va build le
+Cela va vérifier si le projet suit bien les conventions de base puis va build le
 projet dans le dossier `out/` (voir au dessus)
