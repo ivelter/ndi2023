@@ -1,0 +1,9 @@
+{
+    "_comments": "Pour toute variables, il y aura sa version avec un _ pour indiquer les valeurs possibles",
+    
+    "color": "clair",
+    "_color": ["sombre", "clair", "noir&blanc"],
+
+    "colonnes": 2,
+    "_colonnes": "int > 0"
+}
