@@ -1,4 +1,4 @@
-#import "@local/cours:1.2.4": * // Templace faite maison
+#import "./template.typ": * // Templace faite maison
 #set text(font: "Fira Code")
 
 #let config = json("./config.json");
@@ -12,15 +12,6 @@
   black: config.color == "noir&blanc",
   dark: config.color == "sombre",
 )
-
-#show: (doc) => {
-  if (config.color == "sombre") {
-    show block.where(fill: white): set text(fill: black)
-    doc
-  } else {
-    doc
-  }
-}
 
 #let separateur = align(center, line(length: 80%))
 
