@@ -1,12 +1,16 @@
-FROM node:latest
+FROM node:latest as builder
 
-EXPOSE 3000
+EXPOSE 80
 
 ENV NODE_ENV production
 
 WORKDIR /app
-COPY * ./
+COPY * /app
 
 RUN npm ci && npm run build
 
-ENTRYPOINT [ "npm", "start" ]
+FROM nginx:alpine-slim
+
+# Pour copier les fichiers compilés
+COPY --from=builder /app/out /var/www/html
+COPY nginx/* /etc/nginx/

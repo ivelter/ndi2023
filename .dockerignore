@@ -1,3 +1,7 @@
 .next/
 archives/
+# On se cale sur .gitignore
 node_modules/
+.next/
+out/
+archives/
