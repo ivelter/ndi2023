@@ -1,16 +1,16 @@
-FROM node:latest
+FROM node:latest as builder
 
-# Par défaut mais à voir avec 80
-EXPOSE 3000
+EXPOSE 80
 
 ENV NODE_ENV production
 
 WORKDIR /app
-COPY * ./
+COPY * /app
 
 RUN npm ci && npm run build
 
-# TODO: Potentiellement changer ce build pour qu'on puisse le 
-# TODO: charger avec Apache ou Ngnix ou autre
+FROM nginx:alpine-slim
 
-ENTRYPOINT [ "npm", "start" ]
+# Pour copier les fichiers compilés
+COPY --from=builder /app/out /var/www/html
+COPY nginx/* /etc/nginx/
