@@ -1,4 +1,4 @@
-import obj from "./chart.js";
+import chart from "./chart.js";
 // Create the application helper and add its render target to the page
 let app = new PIXI.Application({
   width: 640,
@@ -65,35 +65,60 @@ document.addEventListener(
 );
 
 let tableLeft = [];
+let ms = 0;
+let index = 0;
 
-function slideRight(index, delta) {
+function slideRight(delta) {
   if (tableLeft[index].x < center.x) {
     tableLeft[index].x += 2 * delta;
   }
 }
 
-function createCube() {
-  let cube = PIXI.Sprite.from("pixel.png");
-  app.stage.addChild(cube);
-  cube.y = app.screen.height / 2;
-  tableLeft.push(cube);
+function addCube(note) {
+    console.log(note)
+    let cube = PIXI.Sprite.from("pixel.png");
+  if (note.touche == "t") {
+      app.stage.addChild(cube);
+      cube.x = app.screen.width / 2;
+  }
+  else if (note.touche == "b") {
+      app.stage.addChild(cube);
+      cube.x = app.screen.width / 2;
+      cube.y = app.screen.height
+  }
+  else if (note.touche == "l") {
+      app.stage.addChild(cube);
+      cube.y = app.screen.height / 2
+  }
+  else if (note.touche == "r") {
+      app.stage.addChild(cube);
+      cube.x = app.screen.width - 30
+      cube.y = app.screen.height / 2
+  }
+  note.cube = cube
 }
 
-function addCube(t, index, delta) {
-  if (ms > t && ms <= t + 50) {
-    createCube();
-  }
-  if (ms > t) {
-    slideRight(index, delta);
-  }
-}
-
-let ms = 0;
-let index = 0;
 app.ticker.maxFPS = 60;
+let current = chart.notes.shift();
+console.log(current)
+const listeObjets = [];
 app.ticker.add((delta) => {
   ms = Math.round(ms + 1000 / 60);
-  basicText.text = ms;
+    if (chart.notes.length == 0 && listeObjets.length == 0 ) return;
 
-  addCube(1000, index, delta);
+  basicText.text = ms;
+  if (chart.notes.length != 0) {
+      if (current.delais <= ms) {
+          addCube(current);
+          listeObjets.push(current);
+          current = chart.notes.shift();
+      }}
+      if (listeObjets.length > 0 && listeObjets[0].delais + 1500 <= ms) {
+          listeObjets.shift();
+      }
+
+  listeObjets.forEach(obj => {
+      obj.cube.x += 1;
+  })
+    console.log(listeObjets)
 });
