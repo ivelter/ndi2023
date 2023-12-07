@@ -6,7 +6,7 @@ import FlecheSuiv from "../FlecheSuiv"
 
 export default function SN1() {
     return (
-        <Degrade color="">
+        <Degrade color={all.clair}>
             <Image src="/img/soleilCoin.png" alt="Une illustration simple du soleil, placée dans le coin supérieur gauche de l'écran."
             width="179" height="179"/>
             <h1>

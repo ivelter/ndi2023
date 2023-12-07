@@ -9,26 +9,26 @@ export default function Degrade({
 }) {
   return (
     <Slide>
-      <div
+      {gradientStart != "none" && <div
         className={css.gradStart}
         style={{
           background: gradientStart,
         }}
-      ></div>
+      ></div>}
       <div
-        className={css.gradStart !== "none" ? css.colorBWg : css.colorBWOg}
+        className={gradientStart !== "none" ? css.colorBWg : css.colorBWOg}
         style={{
           backgroundColor: color,
         }}
       >
         {children}
       </div>
-      <div
+      {gradientStop != "none" &&<div
         className={css.gradStop}
         style={{
           background: gradientStop,
         }}
-      ></div>
+      ></div>}
     </Slide>
   );
 }
