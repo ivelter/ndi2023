@@ -1,0 +1,13 @@
+{
+    "notes" : [
+        {"touche" : "l", "tApparait" : 1000, "tDisparrait" : 3000},
+        {"touche" : "u", "tApparait" : 1500, "tDisparrait" : 3500},
+        {"touche" : "r", "tApparait" : 1900, "tDisparrait" : 3900},
+        {"touche" : "d", "tApparait" : 2400, "tDisparrait" : 4400},
+        {"touche" : "d", "tApparait" : 3000, "tDisparrait" : 5000},
+        {"touche" : "r", "tApparait" : 4000, "tDisparrait" : 6000},
+        {"touche" : "l", "tApparait" : 4200, "tDisparrait" : 6200},
+        {"touche" : "u", "tApparait" : 4800, "tDisparrait" : 6800},
+        {"touche" : "u", "tApparait" : 5000, "tDisparrait" : 7000}
+    ]
+}
