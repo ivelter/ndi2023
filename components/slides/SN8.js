@@ -1,9 +1,9 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
 
-export default function SN1() {
+export default function SN8() {
     return (
-        <Degrade color="#fff" gradientStart={all["gradientMC-B"]} gradientStop={all["gradientB-VTC"]}>
+        <Degrade color={all["vert-tres-clair"]}>
             
         </Degrade>
     )

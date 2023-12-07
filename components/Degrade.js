@@ -7,28 +7,42 @@ export default function Degrade({
   gradientStop = "none",
   color = "#FFF",
 }) {
+  const taille =
+    gradientStart == "none" && gradientStop == "none"
+      ? css.colorBWOg
+      : gradientStart == "none" || gradientStop == "none"
+      ? css.colorBWSg
+      : css.colorBWg;
+  const ldiv = (
+    <div
+      className={taille}
+      style={{
+        backgroundColor: color,
+      }}
+    >
+      {children}
+    </div>
+  );
+
   return (
     <Slide>
-      {gradientStart != "none" && <div
-        className={css.gradStart}
-        style={{
-          background: gradientStart,
-        }}
-      ></div>}
-      <div
-        className={gradientStart !== "none" ? css.colorBWg : css.colorBWOg}
-        style={{
-          backgroundColor: color,
-        }}
-      >
-        {children}
-      </div>
-      {gradientStop != "none" &&<div
-        className={css.gradStop}
-        style={{
-          background: gradientStop,
-        }}
-      ></div>}
+      {gradientStart != "none" && (
+        <div
+          className={css.gradStart}
+          style={{
+            background: gradientStart,
+          }}
+        ></div>
+      )}
+        {ldiv}
+      {gradientStop != "none" && (
+        <div
+          className={css.gradStop}
+          style={{
+            background: gradientStop,
+          }}
+        ></div>
+      )}
     </Slide>
   );
 }

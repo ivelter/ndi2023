@@ -1,9 +1,9 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
 
-export default function SN6() {
+export default function SN13() {
     return (
-        <Degrade color={all["marron-clair"]}>
+        <Degrade color={all.noir}>
             
         </Degrade>
     )
