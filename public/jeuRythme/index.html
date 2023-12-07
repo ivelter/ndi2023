@@ -88,13 +88,15 @@
         }
     }
 
+    let ms = 0;
+    let index = 0;
     app.ticker.maxFPS = 60;
     app.ticker.add((delta) => {
 
         ms = Math.round(ms + 1000/60);
         basicText.text = ms;
 
-        addCube(1000, delta);
+        addCube(1000, index, delta);
 
     });
 </script>

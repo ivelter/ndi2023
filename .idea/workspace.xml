@@ -27,6 +27,7 @@
         <option value="Bastide Alexis &lt;bastide.alexis@etu.umontpellier.fr&gt;" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -177,7 +178,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701990007218</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="je push tout">
+      <option name="closed" value="true" />
+      <created>1701990207128</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701990207128</updated>
+    </task>
+    <task id="LOCAL-00015" summary="je push tout">
+      <option name="closed" value="true" />
+      <created>1701990261150</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701990261150</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
