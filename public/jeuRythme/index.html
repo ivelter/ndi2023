@@ -37,14 +37,42 @@
 
     let goRight = false
 
+    let time = 0;
+    let basicText = new PIXI.Text(time);
+
+    basicText.x = 50;
+    basicText.y = 100;
+
+    app.stage.addChild(basicText);
+
+    basicText.text = time
+
+
     document.addEventListener('keydown', (event) => {
-        var name = event.key;
-        var code = event.code;
-        alert(`Key pressed ${name} \r\n Key code value: ${code}`);
+        if (event.key == "ArrowRight") {
+            alert("ok")
+        }
+        if (event.key == "ArrowLeft") {
+            alert("ok")
+        }
+        if (event.key == "ArrowUp") {
+            alert("ok")
+        }
+        if (event.key == "ArrowDown") {
+            alert("ok")
+        }
+
     }, false);
 
+    let frame = 0;
+
     app.ticker.add((delta) => {
-        left.x += 1;
+        frame += 1;
+        if (frame == 60) {
+            frame = 0;
+            time += 1;
+        }
+        basicText.text = time;
     });
 </script>
 </body>
