@@ -67,8 +67,8 @@
     let frame = 0;
 
     app.ticker.add((delta) => {
-        frame += 1;
-        if (frame == 60) {
+        frame += 0.001;
+        if (frame == 0.006) {
             frame = 0;
             time += 1;
         }
