@@ -63,28 +63,29 @@
 
     }, false);
 
-    let tableLeft = {};
+    let tableLeft = [];
 
-    function slideRight(ms, time, r, delta) {
-
-        if (r.x < center.x) {
-            r.x += 2*delta;
+    function slideRight(index, delta) {
+        if (tableLeft[index].x < center.x) {
+            tableLeft[index].x += 2*delta;
         }
-
     }
 
-    function createCube(table) {
+    function createCube() {
         let cube = PIXI.Sprite.from('pixel.png');
         app.stage.addChild(cube);
         cube.y = app.screen.height/2
-        table.push(cube);
-        console.log("test")
-        return table;
+        tableLeft.push(cube)
     }
 
-    let cube = PIXI.Sprite.from('pixel.png');
-    app.stage.addChild(cube);
-    cube.y = app.screen.height/2
+    function addCube(t, index, delta) {
+        if (ms > t && ms <= t+50) {
+            createCube();
+        }
+        if(ms>t){
+            slideRight(index, delta)
+        }
+    }
 
     ms = 0;
     app.ticker.maxFPS = 60;
@@ -92,14 +93,10 @@
 
         ms = Math.round(ms + 1000/60);
         basicText.text = ms;
-        if (ms == 1000) {
-            tableLeft = createCube(tableLeft);
-            console.log(tableLeft[0])
-        }
-        if (ms <= 1000) slideRight(ms, time, tableLeft[0], delta)
 
+        addCube(1000, 0, delta);
+        addCube(2000, 1, delta);
 
-        cube.x += 1;
     });
 </script>
 </body>
