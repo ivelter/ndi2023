@@ -47,7 +47,6 @@
 
     basicText.text = time
 
-
     document.addEventListener('keydown', (event) => {
         if (event.key == "ArrowRight") {
             alert("ok")
@@ -64,17 +63,9 @@
 
     }, false);
 
-    const getFPS = () =>
-        new Promise(resolve =>
-            requestAnimationFrame(t1 =>
-                requestAnimationFrame(t2 => resolve(1000 / (t2 - t1)))
-            )
-        )
+    let tableLeft = {};
 
-    function slideRight(r, delta) {
-
-        let cube = PIXI.Sprite.from('pixel.png');
-        app.stage.addChild(cube);
+    function slideRight(ms, time, r, delta) {
 
         if (r.x < center.x) {
             r.x += 2*delta;
@@ -82,12 +73,33 @@
 
     }
 
-    frame = 0;
+    function createCube(table) {
+        let cube = PIXI.Sprite.from('pixel.png');
+        app.stage.addChild(cube);
+        cube.y = app.screen.height/2
+        table.push(cube);
+        console.log("test")
+        return table;
+    }
+
+    let cube = PIXI.Sprite.from('pixel.png');
+    app.stage.addChild(cube);
+    cube.y = app.screen.height/2
+
+    ms = 0;
     app.ticker.maxFPS = 60;
     app.ticker.add((delta) => {
-        frame = Math.round(frame + 1000/60);
-        basicText.text = frame;
-        if (frame > 5) slideRight(left, delta);
+
+        ms = Math.round(ms + 1000/60);
+        basicText.text = ms;
+        if (ms == 1000) {
+            tableLeft = createCube(tableLeft);
+            console.log(tableLeft[0])
+        }
+        if (ms <= 1000) slideRight(ms, time, tableLeft[0], delta)
+
+
+        cube.x += 1;
     });
 </script>
 </body>
