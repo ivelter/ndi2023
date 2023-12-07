@@ -1,0 +1,35 @@
+Index: src/app/jeu-rythme/page.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import * as PIXI from 'pixi.js';\r\n// Module est important !!\r\n\r\nconst app = new Application();\r\n\r\nexport default function PagePourDireBonjour() {\r\n    return <h1 className={moncss.bonjour}>Bonjour!</h1>\r\n}
+===================================================================
+diff --git a/src/app/jeu-rythme/page.js b/src/app/jeu-rythme/page.js
+--- a/src/app/jeu-rythme/page.js	
++++ b/src/app/jeu-rythme/page.js	
+@@ -1,8 +1,20 @@
+-import * as PIXI from 'pixi.js';
+-// Module est important !!
+-
+-const app = new Application();
++import { BlurFilter } from 'pixi.js';
++import { Stage, Container, Sprite, Text } from '@pixi/react';
++import { useMemo } from 'react';
+ 
+ export default function PagePourDireBonjour() {
+-    return <h1 className={moncss.bonjour}>Bonjour!</h1>
++    return (
++        <Stage>
++            <Sprite
++                image="https://pixijs.io/pixi-react/img/bunny.png"
++                x={400}
++                y={270}
++                anchor={{ x: 0.5, y: 0.5 }}
++            />
++
++            <Container x={400} y={330}>
++                <Text text="Hello World" anchor={{ x: 0.5, y: 0.5 }} />
++            </Container>
++        </Stage>
++    );
+ }
+\ No newline at end of file
