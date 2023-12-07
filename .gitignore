@@ -10,3 +10,5 @@ archives/
 
 # local env files
 .env*.local
+
+.idea
