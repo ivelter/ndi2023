@@ -4,7 +4,7 @@
     <script src="https://pixijs.download/release/pixi.min.js"></script>
 </head>
 <body>
-<script>
+<script type="module">
     import obj from "./chart.js";
     // Create the application helper and add its render target to the page
     let app = new PIXI.Application({width: 640, height: 460, background: "green"});
@@ -88,16 +88,13 @@
         }
     }
 
-
-    let ms = 0;
-    let index = 0
     app.ticker.maxFPS = 60;
     app.ticker.add((delta) => {
 
         ms = Math.round(ms + 1000/60);
         basicText.text = ms;
 
-        addCube(chart.notes[index].touche.delais, index, delta);
+        addCube(1000, delta);
 
     });
 </script>
