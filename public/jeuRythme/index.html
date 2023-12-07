@@ -6,7 +6,7 @@
 <body>
 <script>
     // Create the application helper and add its render target to the page
-    let app = new PIXI.Application({ width: 640, height: 460, background: "green" });
+    let app = new PIXI.Application({width: 640, height: 460, background: "green"});
     document.body.appendChild(app.view);
 
     // Create the sprite and add it to the stage
@@ -64,15 +64,30 @@
 
     }, false);
 
-    let frame = 0;
+    const getFPS = () =>
+        new Promise(resolve =>
+            requestAnimationFrame(t1 =>
+                requestAnimationFrame(t2 => resolve(1000 / (t2 - t1)))
+            )
+        )
 
-    app.ticker.add((delta) => {
-        frame += 0.001;
-        if (frame == 0.006) {
-            frame = 0;
-            time += 1;
+    function slideRight(r, delta) {
+
+        let cube = PIXI.Sprite.from('pixel.png');
+        app.stage.addChild(cube);
+
+        if (r.x < center.x) {
+            r.x += 2*delta;
         }
-        basicText.text = time;
+
+    }
+
+    frame = 0;
+    app.ticker.maxFPS = 60;
+    app.ticker.add((delta) => {
+        frame = Math.round(frame + 1000/60);
+        basicText.text = frame;
+        if (frame > 5) slideRight(left, delta);
     });
 </script>
 </body>

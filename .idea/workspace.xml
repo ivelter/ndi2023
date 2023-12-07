@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f884a9a2-ed45-4aab-b2ce-bc53210dad1e" name="Changes" comment="timer">
+    <list default="true" id="f884a9a2-ed45-4aab-b2ce-bc53210dad1e" name="Changes" comment="timer *2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/jeuRythme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jeuRythme/index.html" afterDir="false" />
     </list>
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701980987346</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="timer *2">
+      <option name="closed" value="true" />
+      <created>1701981188831</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701981188831</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +145,7 @@
     <MESSAGE value="branche jeu de rythme" />
     <MESSAGE value="base du jeu" />
     <MESSAGE value="timer" />
-    <option name="LAST_COMMIT_MESSAGE" value="timer" />
+    <MESSAGE value="timer *2" />
+    <option name="LAST_COMMIT_MESSAGE" value="timer *2" />
   </component>
 </project>
