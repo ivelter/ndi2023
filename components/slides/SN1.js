@@ -9,10 +9,13 @@ export default function SN1() {
         <Degrade color={all.clair}>
             <Image src="/img/soleilCoin.png" alt="Une illustration simple du soleil, placée dans le coin supérieur gauche de l'écran."
             width="179" height="179"/>
-            <h1>
-                Le réchauffement climatique <b className="text-[#10AB1F]">n’existe pas</b>!
-            </h1>
-            <FlecheSuiv></FlecheSuiv>
+            <div className={base.centerDiv}>
+                <h1 className={base.blackText}>
+                    Le réchauffement climatique <b className={base.heroText}>n’existe pas</b>!
+                </h1>
+                {/* TODO: ajouter le lien vers SN2 */}
+                <FlecheSuiv></FlecheSuiv> 
+            </div>
         </Degrade>
     )
 } 
