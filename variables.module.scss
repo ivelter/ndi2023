@@ -1,0 +1,39 @@
+/* Palette */
+$clair: #f0ead2;
+$vert-tres-clair: #dde5b6;
+$vert-clair: #adc178;
+$marron-clair: #a98467;
+$marron: #6c584c;
+$vert: #598200;
+
+$noir: #333;
+$gris: #4c4e52;
+$footer: #2e3033;
+
+$gradientC-N: linear-gradient($vert, $noir);
+$gradientN-MC: linear-gradient($noir, $marron-clair);
+$gradientMC-B: linear-gradient($marron-clair, #fff);
+$gradientB-VTC: linear-gradient(#fff, $vert-tres-clair);
+$gradientVTC-M: linear-gradient($vert-tres-clair, $marron);
+$gradientM-N: linear-gradient($marron, $noir);
+$gradientN-GR: linear-gradient($noir, #4c4e52);
+
+:export {
+  clair: $clair;
+  vert-tres-clair: $vert-tres-clair;
+  vert-clair: $vert-clair;
+  marron-clair: $marron-clair;
+  marron: $marron;
+  vert: $vert;
+
+  noir: $noir;
+  gris: $gris;
+  footer: $footer;
+  gradientC-N: $gradientC-N;
+  gradientN-MC: $gradientN-MC;
+  gradientMC-B: $gradientMC-B;
+  gradientB-VTC: $gradientB-VTC;
+  gradientVTC-M: $gradientVTC-M;
+  gradientM-N: $gradientM-N;
+  gradientN-GR: $gradientN-GR;
+}
