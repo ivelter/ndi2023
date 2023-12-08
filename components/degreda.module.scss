@@ -1,17 +1,21 @@
 .gradStart, .gradStop {
     height: 10vh;
+    //min-height: 800px;
 }
 
 .colorBWg {
-    height: 80vh
+    height: 80vh;
+    //min-height: 900px;
 }
 
 .colorBWS {
-    height: 90vh
+    height: 90vh;
+    //min-height: 1000px;
 }
 
 .colorBWOg {
     height: 100vh;
+    //min-height: 1000px;
 }
 
 .gradStart, .gradStop, .colorBWg, .colorBWOg {
