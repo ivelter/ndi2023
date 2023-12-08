@@ -1,6 +1,5 @@
 import base from "../principal.module.scss";
 
-// TODO: faire un lien vers cette page
 export default function conseils() {
   return (
     <div className={base.genericLayout}>
