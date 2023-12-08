@@ -7,11 +7,11 @@ export default function SN14() {
   return (
     <Degrade color={all.gris} id={14}>
       <div className={base.divRoot}>
-        <h1>Mais dans l&apos;urgence, il faut surtout garder son calme.</h1>
+        <h1>Mais dans l&apos;urgence, il faut surtout garder son <span className={"text-white"}>calme</span>.</h1>
         <div className={base.textclass}>
           <p>
-            Effectuez des actions à votre échelle. Parlez en à vos proches.
-            Participez à des actions collectives. Chaque action compte, et vous
+            Effectuez des actions à <span className={"text-white"}>votre échelle</span>. Parlez en à vos proches.
+            Participez à des <span className={"text-white"}>actions collectives</span>. Chaque action compte, et vous
             n&apos;avez pas besoin de faire de sacrifices pour faire la
             différence.
           </p>
