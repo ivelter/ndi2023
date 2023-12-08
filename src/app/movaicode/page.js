@@ -1,3 +1,4 @@
+"use client"
 /* eslint-disable react/no-unescaped-entities */
 import base from "./movaicode.module.scss"
 
