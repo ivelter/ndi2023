@@ -1,11 +1,17 @@
-.div {
-    width: 100%;
-}
-
 .q1, .q2, .q3, .q4, .q5 {
     width: 100%;
     font-size: 32px;
     padding: 30px 0 30px 0;
+}
+
+.align {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    * {
+        margin: auto;
+    }
 }
 
 .q1 {

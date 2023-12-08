@@ -1,5 +1,6 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
+import FlecheSuiv from "../FlecheSuiv"
 import base from "./SN6.module.scss"
 
 export default function SN6() {
@@ -29,6 +30,9 @@ export default function SN6() {
                 <p className={base.q5}>
                     Est-ce que tout ça vaut vraiment la peine?
                 </p>
+            </div>
+            <div className={base.align}>
+                <FlecheSuiv></FlecheSuiv>
             </div>
         </Degrade>
     )
