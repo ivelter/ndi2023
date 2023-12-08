@@ -1,0 +1,24 @@
+.divRacine {
+    width: 100%;
+    color: black;
+    margin: 30px;
+    h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    p {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+}
+
+.centerDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    * {
+        margin: auto;
+    }
+}
