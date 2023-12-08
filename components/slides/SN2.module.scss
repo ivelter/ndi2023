@@ -1,0 +1,22 @@
+.containerCitation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    column-gap: 200px;
+}
+
+.citationSarkozy {
+    font-size: 18px;
+    width: 400px;
+    transform: translateY(-50px);
+}
+
+.citationMitch {
+    position: relative;
+    font-size: 18px;
+    width: 400px;
+    text-align: end;
+    transform: translateY(50px);
+}
+
