@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f884a9a2-ed45-4aab-b2ce-bc53210dad1e" name="Changes" comment="je push tout">
+    <list default="true" id="f884a9a2-ed45-4aab-b2ce-bc53210dad1e" name="Changes" comment="une bonne base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/jeuRythme/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/jeuRythme/index.js" afterDir="false" />
     </list>
@@ -194,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701990261150</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="une bonne base">
+      <option name="closed" value="true" />
+      <created>1701993148958</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701993148958</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +215,7 @@
     <MESSAGE value="tentative de truc" />
     <MESSAGE value="ça marche enfin" />
     <MESSAGE value="je push tout" />
-    <option name="LAST_COMMIT_MESSAGE" value="je push tout" />
+    <MESSAGE value="une bonne base" />
+    <option name="LAST_COMMIT_MESSAGE" value="une bonne base" />
   </component>
 </project>
