@@ -4,9 +4,10 @@ export default function Externe() {
     console.log(test)
 
     function randomPerso(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    
+
+
 
     return (
         <div className={test}>
@@ -34,7 +35,7 @@ export default function Externe() {
                 aspects liés à la consommation dans divers secteurs. Le rapport souligne qu'une réduction significative
                 des émissions de gaz à effet de serre est possible en modifiant nos modes de vie.</p>
 
-            <button className={"p-5 bg-green-100 rounded-xl text-black hover:bg-green-200"}>télécharger le rapport</button>
+            <button id="boutonDownload" className={"p-5 bg-green-100 rounded-xl text-black hover:bg-green-200"}>télécharger le rapport</button>
         </div>
     );
 }
