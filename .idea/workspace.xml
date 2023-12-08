@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f884a9a2-ed45-4aab-b2ce-bc53210dad1e" name="Changes" comment="une bonne base">
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/Capture d'écran 2023-12-08 023632.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/bin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ressources/img/waste9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jeuRythme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jeuRythme/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/jeuRythme/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/jeuRythme/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jeuRythme/ressources/img/poubelleGrise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jeuRythme/ressources/img/poubelleJaune.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jeuRythme/ressources/img/poubelleRouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jeuRythme/ressources/img/poubelleVerte.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +42,6 @@
         <option value="Bastide Alexis &lt;bastide.alexis@etu.umontpellier.fr&gt;" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,6 +76,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\IdeaProjects\ndi2023\public\jeuRythme\ressources\img" />
       <recent name="C:\Users\anton\IdeaProjects\ndi2023\public\jeuRythme" />
       <recent name="C:\Users\anton\IdeaProjects\ndi2023\src\app\jeu-rythme\img" />
       <recent name="C:\Users\anton\IdeaProjects\ndi2023\src\app\jeu-rythme" />
@@ -230,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701996060637</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="une bonne base">
+      <option name="closed" value="true" />
+      <created>1701997189498</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1701997189498</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

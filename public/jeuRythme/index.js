@@ -8,20 +8,20 @@ function run() {
     let app = new PIXI.Application({
         width: 900,
         height: 450,
-        background: "green",
+        background: "black",
     });
     document.body.appendChild(app.view);
 
 
 // Create the sprite and add it to the stage
-    let center = PIXI.Sprite.from("pixel.png");
-
+    let center = PIXI.Sprite.from("ressources/img/bin.png");
     app.stage.addChild(center);
+    center.anchor.set(0.5);
+    center.width = 60
+    center.height = 60
 
     center.x = app.screen.width / 2;
     center.y = app.screen.height / 2;
-
-    let goRight = false;
 
     let time = 0;
     let basicText = new PIXI.Text(time);
@@ -39,8 +39,10 @@ function run() {
     let ms = 0;
 
     function addCube(note) {
-        console.log(note)
-        let cube = PIXI.Sprite.from("pixel.png");
+        let cube = PIXI.Sprite.from("ressources/img/waste"+Math.floor(Math.random() * 9 + 1)+".png");
+        cube.width = 50;
+        cube.height = 50;
+        cube.anchor.set(0.5);
         if (note.touche == "t") {
             app.stage.addChild(cube);
             cube.x = app.screen.width / 2;
@@ -70,6 +72,7 @@ function run() {
     app.ticker.add((delta) => {
         ms = Math.round(ms + 1000 / 60);
         if (chart.notes.length == 0 && listeObjets.length == 0) return;
+
 
         basicText.text = ms;
         if (current) {
