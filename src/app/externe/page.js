@@ -1,6 +1,10 @@
-export default function Home() {
+export default function Externe() {
+
+    const test = `flex flex-col gap-${Math.floor(Math.random() * 10) + 1} p-12`
+    console.log(test)
+
     return (
-        <div>
+        <div className={test}>
             <h1 className={"text-center text-5xl"}>
                 6e rapport du GIEC :
                 quelles solutions face au changement climatique ?
@@ -21,9 +25,11 @@ export default function Home() {
                 actuelle et travailler vers un avenir plus durable.
             </p>
 
-            <button className={"p-4xl bg-green-100 rounded-sm"}>télécharger le rapport</button>
+            <p>Première fois dans l'histoire, le GIEC consacre un chapitre à la demande, en mettant en lumière les
+                aspects liés à la consommation dans divers secteurs. Le rapport souligne qu'une réduction significative
+                des émissions de gaz à effet de serre est possible en modifiant nos modes de vie.</p>
 
-
+            <button className={"p-5 bg-green-100 rounded-xl text-black hover:bg-green-200"}>télécharger le rapport</button>
         </div>
     );
 }
