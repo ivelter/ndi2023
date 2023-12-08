@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from "next/link";
 import all from "../../variables.module.scss";
 import Degrade from "../Degrade";
 import base from "./SN11.module.scss";
@@ -35,9 +36,9 @@ export default function SN11() {
 
         <div className={base.d2}>
           <div className={` ${base.dansD2elt1} ${fontQuicksand.className}`}>
-            <a href="https://www.ecologie.gouv.fr/publication-du-6e-rapport-synthese-du-giec">
+            <Link href="https://www.ecologie.gouv.fr/publication-du-6e-rapport-synthese-du-giec">
               Cliquez pour combattre la désinformation
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -37,9 +37,9 @@ const list = [
 export default function Slides() {
   return (
     <>
-      {list.map((a, i) => (
-        a({key: i})
-      ))}
+      {list.map((Comp, i) => {
+        return <Comp key={i}/>
+      })}
     </>
   );
 }
