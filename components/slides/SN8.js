@@ -5,7 +5,7 @@ import base from "./SN8.module.scss"
 import FlecheSuiv from "../FlecheSuiv"
 
 import { Lato } from 'next/font/google'
-const fontLato  = Lato({style : ['italic'], subsets : ['latin'], weight : ['400']})
+const fontLato  = Lato({subsets : ['latin'], weight : ['400']})
 import { Quicksand } from "next/font/google"
 const fontQuicksand = Quicksand({weight :  ['700'], subsets : ['latin']})
 
