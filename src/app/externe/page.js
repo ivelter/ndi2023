@@ -1,25 +1,40 @@
 export default function Externe() {
 
-    const test = `flex flex-col gap-${Math.floor(Math.random() * 10) + 1} p-12`
-    console.log(test)
-
     function randomPerso(min, max) {
         return Math.floor(Math.random() * (max - min)) + min;
     }
-    
+
+    function randomColor() {
+        const colors = [
+            "rose",
+            "bleu",
+            "sky",
+            "red",
+            "yellow",
+            "orange",
+        ]
+        const gama = [
+            50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950
+        ]
+        return colors[randomPerso(0, colors.length-1)]+"-"+gama[randomPerso(0, gama.length-1)]
+    }
+
+    const texte = `flex flex-col gap-10 p-12 bg-${randomColor()}`
 
     return (
-        <div className={test}>
+        <div className={`flex flex-col gap-10 p-12 bg-${randomColor()}`}>
             <h1 className={"text-center text-5xl"}>
                 6e rapport du GIEC :
                 quelles solutions face au changement climatique ?
             </h1>
 
-            <h2 className={"text-2xl"}>
+            <h1>{texte}</h1>
+
+            <h2 className={`text-2xl text-${randomColor()}`}>
                 GIEC = Groupe d'experts intergouvernemental sur l'évolution du climat
             </h2>
 
-            <p className={""}>
+            <p className={"absolute top-"}>
                 La bonne nouvelle provenant du rapport du GIEC est que des solutions existent pour faire face au
                 changement climatique. Le GIEC affirme que "dans tous les secteurs, nous disposons de solutions pour
                 réduire au moins de moitié les émissions d'ici à 2030", une étape cruciale pour atteindre les objectifs
