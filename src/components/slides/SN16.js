@@ -12,10 +12,10 @@ export default function SN16() {
       <div className={base.containerLink}>
         <div className={base.partiGauche}>
           <div>
-            <a href="">Les fakes new</a>
+            <a href="https://www.natura-sciences.com/comprendre/5-fake-news-rechauffement-climatique.html" target="_blank">Les fakes new</a>
           </div>
           <div>
-            <a href="">Comment lutter contre</a>
+            <a href="https://www.exteriores.gob.es/fr/PoliticaExterior/Paginas/LaLuchaContraLaDesinformacion.aspx#:~:text=Pour%20combattre%20la%20d%C3%A9sinformation%2C%20il,faits%20et%20les%20institutions%20acad%C3%A9miques." target="_blank">Comment lutter contre</a>
           </div>
           <div>
             <a href="">Les petites actions qui comptent</a>
@@ -24,13 +24,13 @@ export default function SN16() {
 
         <div className={base.partiDroite}>
           <div>
-            <a href="">Les spécialistes connues</a>
+            <a href="https://okaydoc.fr/climat-connaitre-ces-5-chercheurs-est-primordial" target="_blank">Les spécialistes connues</a>
           </div>
           <div>
-            <a href="">GIEC</a>
+            <a href="https://www.ipcc.ch/languages-2/francais/" target="_blank">GIEC</a>
           </div>
           <div>
-            <a href="">Article et interview</a>
+            <a href="https://reseauactionclimat.org/synthese-du-rapport-du-giec-lurgence-climatique-est-la-les-solutions-aussi/#:~:text=Le%20GIEC%20rapporte%20que%20les,de%20mani%C3%A8re%20disproportionn%C3%A9e%20aux%20%C3%A9missions.&text=Les%2010%20%25%20de%20m%C3%A9nages%20ayant,gaz%20%C3%A0%20effet%20de%20serre." target="_blank">Article du Giec</a>
           </div>
         </div>
 
