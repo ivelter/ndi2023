@@ -9,7 +9,7 @@
 .d1{
     margin: 3%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: baseline;
     align-items: baseline;
     
@@ -50,7 +50,8 @@
 
 
 .d1 > p {
-    font-size: 60px;
+    font-size: 44px;
+    margin-bottom: 1%;
 
 }
 
