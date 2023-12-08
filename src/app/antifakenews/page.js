@@ -1,4 +1,4 @@
-import base from "./principal.module.scss";
+import base from "../principal.module.scss";
 
 // TODO: faire un lien vers cette page. l'ancien lien d'eliott pourrait devenir un easter egg psk il est goatesque
 export default function antifakenews() {
