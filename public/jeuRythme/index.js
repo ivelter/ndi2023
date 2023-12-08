@@ -72,11 +72,11 @@ function run() {
         if (chart.notes.length == 0 && listeObjets.length == 0) return;
 
         basicText.text = ms;
-        if (chart.notes.length != 0) {
+        if (current) {
             if (current.delais <= ms) {
                 addCube(current);
                 listeObjets.push(current);
-                current = chart.notes.shift();
+                current = chart.notes.length ? chart.notes.shift():null;
             }
         }
         if (listeObjets.length > 0 && listeObjets[0].delais + 1920 <= ms) {

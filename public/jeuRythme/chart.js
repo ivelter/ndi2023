@@ -10,7 +10,6 @@ export default {
         {"touche" : "t", "delais" : 8200},
         {"touche" : "t", "delais" : 8300},
         {"touche" : "b", "delais" : 8600},
-        {"touche" : "b", "delais" : 8700},
-        {"touche" : "b", "delais" : 10000}
+        {"touche" : "b", "delais" : 8700}
     ]
 }
