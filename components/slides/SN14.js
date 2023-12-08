@@ -1,6 +1,5 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
-import FlecheSuiv from "../FlecheSuiv"
 import base from "./SN14.module.scss"
 import Link from "next/link"
 
@@ -22,9 +21,6 @@ export default function SN14() {
                 </div>
                 <div className={base.linkclass}>
                     <Link href="/">Les solutions à adopter</Link>
-                </div>
-                <div className={base.flecheclass}>
-                    <FlecheSuiv></FlecheSuiv>
                 </div>
             </div>
         </Degrade>

@@ -1,6 +1,5 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
-import FlecheSuiv from "../FlecheSuiv"
 import base from "./SN15.module.scss"
 
 export default function SN15() {

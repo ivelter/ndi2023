@@ -1,6 +1,5 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
-import FlecheSuiv from "../FlecheSuiv"
 import base from "./SN11.module.scss"
 
 import { Lato } from 'next/font/google'
@@ -39,10 +38,7 @@ export default function SN11() {
                         </a>
                     
                     </div>
-                
-                    <div className={base.dansD2elt2} >
-                        <FlecheSuiv></FlecheSuiv>
-                    </div>
+            
                 </div>
 
             </div>
