@@ -4,6 +4,9 @@ import Image from "next/image"
 import base from "./SN1.module.scss"
 import FlecheSuiv from "../FlecheSuiv"
 
+
+
+
 export default function SN1() {
     return (
         <Degrade color={all.clair}>
