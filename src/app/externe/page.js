@@ -8,10 +8,10 @@ export async function getStaticProps(context) {
     }
 }
 
-export default function Externe() {
+export default function Externe({ colors }) {
 
     // Props
-    
+    console.log(colors);
 
     // Update
 
