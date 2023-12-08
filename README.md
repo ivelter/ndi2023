@@ -20,32 +20,26 @@ Les magnifiques membres de la `CoopTeam`
 Les défis réalisés sont: 
 - [Le défi principal](https://www.nuitdelinfo.com/inscription/defis/174) (pour lancer, voir suite)
 - [Easter eggs par Code Troopers](https://www.nuitdelinfo.com/inscription/defis/328)
-  - ici mettre instructions selon modalités de rendu
 - [UX/UI cauchemardesque par RedLab](https://www.nuitdelinfo.com/inscription/defis/396)
-  - pareil
 - [MOVAI CODE par Coddity](https://www.nuitdelinfo.com/inscription/defis/410)
-  - pareil
 - [Jeu de rythme par Rhythm Freaks](https://www.nuitdelinfo.com/inscription/defis/413)
-  - pareil
-- [Retroverse Pipeline par l'Ecole Polytechnique de Sousse](https://www.nuitdelinfo.com/inscription/defis/421)
-  - pareil     
+- [Retroverse Pipeline par l'Ecole Polytechnique de Sousse](https://www.nuitdelinfo.com/inscription/defis/421)     
 
 ## Fonctionnalités
 - Une page d'accueil "slides" qui résume la problématique
 - Deux autres pages qui approfondissent la problématique des fake news et de la lutte contre le changement climatique à son échelle
 - Un jeu de rythme sur le thème du climat (voir défis)
-  - Présenter et comment y accéder ici
+  - Cliquer sur le soleil pour jouer
 - Des easter eggs:
-  - Quelque chose se passe lorsque vous cliquez plusieurs fois sur le soleil sur la page d'accueil
+  - Quelque chose se passe dans le code source d'une des slides de la page d'accueil
   - Quelque chose se passe si vous tapes "saucisse" au clavier sur la page d'accueil
 - Une fonction mal écrite:
-  - La décrire ici
+  - Calculer le taux de différences en °C entre 2010 et 2020 (dossier Movaicode)
 - Des pipelines de CI/CD, et entre autre une pipeline Docker
-  - Décrire + lien dockerHub ici
 
 ## Lien d'accès
 
-Mettre ici une fois qu'il sera upload
+[Ici](https://ndi2023.vercel.app/)
 
 ## Détails sur l'installation en local
 
