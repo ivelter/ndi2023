@@ -1,14 +1,29 @@
 import base from "./externe.module.scss"
 
+export async function getStaticProps(context) {
+    return {
+        props: {
+            colors: ["beige", "purple", "orange"].sort(() => r.next() - 0.)
+        },
+    }
+}
+
 export default function Externe() {
+
+    // Props
+    
+
+    // Update
+
+    // Affichage
     return (
-        <div className={'flex flex-col gap-10 p-12 bg-${randomColor()}'}>
+        <div className={'flex flex-col gap-10 p-12'}>
             <h1 className={"text-center text-5xl"}>
                 6e rapport du GIEC :
                 quelles solutions face au changement climatique ?
             </h1>
 
-            <h2 className={base.test}>
+            <h2>
                 GIEC = Groupe d'experts intergouvernemental sur l'évolution du climat
             </h2>
 
@@ -26,7 +41,6 @@ export default function Externe() {
             <p>Première fois dans l'histoire, le GIEC consacre un chapitre à la demande, en mettant en lumière les
                 aspects liés à la consommation dans divers secteurs. Le rapport souligne qu'une réduction significative
                 des émissions de gaz à effet de serre est possible en modifiant nos modes de vie.</p>
-
         </div>
     );
 }
