@@ -38,7 +38,7 @@ export default function Slides() {
   return (
     <>
       {list.map((a, i) => (
-        <a key={i} />
+        a({key: i})
       ))}
     </>
   );
