@@ -2,7 +2,7 @@
 import all from "../../variables.module.scss";
 import Degrade from "../Degrade";
 import base from "./SN2.module.scss";
-import backgroundImage from "../../../public/img/slide2-img.png";
+import backgroundImage from "../../images/slide2-img.png";
 
 export default function SN2() {
   return (
