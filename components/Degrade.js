@@ -7,6 +7,7 @@ export default function Degrade({
   gradientStart = "none",
   gradientStop = "none",
   color = "#FFF",
+  id = 0
 }) {
   const taille =
     gradientStart == "none" && gradientStop == "none"
@@ -22,7 +23,7 @@ export default function Degrade({
       }}
     >
       {children}
-      <FlecheSuiv />
+      <FlecheSuiv id={id + 1}/>
     </div>
   );
 

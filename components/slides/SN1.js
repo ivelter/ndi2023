@@ -3,7 +3,7 @@ import Degrade from "../Degrade";
 import Image from "next/image";
 import base from "./SN1.module.scss";
 
-export default function SN1() {
+export default function SN1({ id = 0}) {
   return (
     <Degrade color={all.clair}>
       <Image

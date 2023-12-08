@@ -18,6 +18,8 @@ $gradientVTC-M: linear-gradient($vert-tres-clair, $marron);
 $gradientM-N: linear-gradient($marron, $noir);
 $gradientN-GR: linear-gradient($noir, #4c4e52);
 
+$shadouwu: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+
 :export {
   clair: $clair;
   vert-tres-clair: $vert-tres-clair;
@@ -36,4 +38,5 @@ $gradientN-GR: linear-gradient($noir, #4c4e52);
   gradientVTC-M: $gradientVTC-M;
   gradientM-N: $gradientM-N;
   gradientN-GR: $gradientN-GR;
+  shadouwu: $shadouwu;
 }
