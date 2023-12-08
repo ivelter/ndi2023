@@ -4,6 +4,7 @@
     justify-content: center;
     column-gap: 500px;
     height: 100%;
+    position: relative;
 }
 
 .containerLink a {
@@ -49,4 +50,10 @@
     &:active {
         transform: scale(1.05);
     }
+}
+
+.easterEggSlide16 {
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
 }

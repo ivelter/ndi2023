@@ -17,6 +17,8 @@ export default function SN16() {
                     <div><a href="">Comment lutter contre</a></div>
                     <div><a href="">Les petites actions qui comptent</a></div>
                 </div>
+
+                <div className={base.easterEggSlide16}>psst. pensez à cliquer sur le soleil au début.</div>
             </div>
         </Degrade>
     )
