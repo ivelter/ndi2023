@@ -5,8 +5,7 @@ import base from "./SN10.module.scss";
 export default function SN10() {
   return (
     <Degrade
-      gradientStart={all["vert-tres-clair"]}
-      gradientStop={all.marron}
+      gradientStart={all["gradientVTC-M"]}
       color={all.marron}
       id={10}
     >
