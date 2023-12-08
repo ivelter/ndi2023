@@ -22,8 +22,8 @@ export default function SN5() {
           émissions de gaz à effet de serre, ont sans équivoque provoqué la
           réchauffement de la planète"
         </b>
-        <h1>
-          <b>Alors, comment réagir face à l'urgence?</b>
+        <h1 >
+          <b className={base.accroche}>Alors, comment réagir face à l'urgence?</b>
         </h1>
       </div>
     </Degrade>
