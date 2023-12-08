@@ -12,7 +12,7 @@ export default function SN15() {
           <h1>Vous êtes arrivés à la fin de l&apos;expérience.</h1>
           <p>
             Mais gardez en tête que la lutte contre le changement climatique est
-            un combat de tous les jours.
+            <span className={"text-white"}> un combat de tous les jours.</span>
           </p>
         </div>
 
