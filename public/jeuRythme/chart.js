@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default {
   notes: [
     { touche: "l", delais: 1000 },
