@@ -3,6 +3,11 @@ export default function Externe() {
     const test = `flex flex-col gap-${Math.floor(Math.random() * 10) + 1} p-12`
     console.log(test)
 
+    function randomPerso(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+    
+
     return (
         <div className={test}>
             <h1 className={"text-center text-5xl"}>
