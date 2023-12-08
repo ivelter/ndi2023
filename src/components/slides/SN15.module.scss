@@ -1,0 +1,20 @@
+.divRoot {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+
+  p {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+.firstHalf {
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+  }
+}

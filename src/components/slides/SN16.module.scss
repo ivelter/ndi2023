@@ -1,0 +1,59 @@
+.containerLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 500px;
+  height: 100%;
+  position: relative;
+}
+
+.containerLink a {
+  color: white;
+  font-size: 22px;
+
+  &:hover {
+    color: beige;
+  }
+}
+
+.partiGauche {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.partiGauche > div {
+  transition: ease 0.2s;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+
+  &:active {
+    transform: scale(1.1);
+  }
+}
+
+.partiDroite {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.partiDroite > div {
+  transition: ease 0.2s;
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  &:active {
+    transform: scale(1.05);
+  }
+}
+
+.easterEggSlide16 {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+}
