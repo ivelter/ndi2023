@@ -1,40 +1,44 @@
-.q1, .q2, .q3, .q4, .q5 {
-    width: 100%;
-    font-size: 32px;
-    padding: 30px 0 30px 0;
+.q1,
+.q2,
+.q3,
+.q4,
+.q5 {
+  width: 100%;
+  font-size: 32px;
+  padding: 30px 0 30px 0;
 }
 
 .align {
-    width: 100%;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
 
-    * {
-        margin: auto;
-    }
+  * {
+    margin: auto;
+  }
 }
 
 .q1 {
-    margin-left: 5vw;
+  margin-left: 5vw;
 }
 
 .q2 {
-    margin-left: 50vw;
-    color: #DDDADA;
+  margin-left: 50vw;
+  color: #dddada;
 }
 
 .q3 {
-    margin-left: 10vw;
-    color: #F1C5C5;
+  margin-left: 10vw;
+  color: #f1c5c5;
 }
 
 .q4 {
-    margin-left: 35vw;
-    color: #ABABAB;
+  margin-left: 35vw;
+  color: #ababab;
 }
 
 .q5 {
-    text-align: center;
-    margin-left: 1vw;
-    color: #8A6767;
+  text-align: center;
+  margin-left: 1vw;
+  color: #8a6767;
 }

@@ -12,8 +12,8 @@ export default function Degrade({
     gradientStart == "none" && gradientStop == "none"
       ? css.colorBWOg
       : gradientStart == "none" || gradientStop == "none"
-      ? css.colorBWSg
-      : css.colorBWg;
+        ? css.colorBWSg
+        : css.colorBWg;
   const ldiv = (
     <div
       className={taille}
@@ -22,7 +22,7 @@ export default function Degrade({
       }}
     >
       {children}
-      <FlecheSuiv/>
+      <FlecheSuiv />
     </div>
   );
 
@@ -36,7 +36,7 @@ export default function Degrade({
           }}
         ></div>
       )}
-        {ldiv}
+      {ldiv}
       {gradientStop != "none" && (
         <div
           className={css.gradStop}

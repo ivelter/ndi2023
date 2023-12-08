@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function FlecheSuiv(hrefSuivant = "#") {
   return (
-    <div  className={base.FlecheSuiv}>
+    <div className={base.FlecheSuiv}>
       <Link href={hrefSuivant}>
         <Image
           src="/img/downarrow.png"

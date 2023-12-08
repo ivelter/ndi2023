@@ -1,19 +1,19 @@
 .whiteText {
-    color: white;
-    width: 10vw;
+  color: white;
+  width: 10vw;
 }
 
 .centerDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
 
-    h1 {
-        margin-top: 30vh;
-        margin-bottom: 30vh;
-        font-size: 50px;
-        text-align: center;
-    }
+  h1 {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    font-size: 50px;
+    text-align: center;
+  }
 }

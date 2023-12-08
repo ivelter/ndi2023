@@ -1,27 +1,28 @@
 .containerCitation {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-    column-gap: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  column-gap: 200px;
 }
 
-.containerCitation, .citationMitch, .citationSarkozy {
-    color: black
+.containerCitation,
+.citationMitch,
+.citationSarkozy {
+  color: black;
 }
 
 .citationSarkozy {
-    font-size: 18px;
-    width: 400px;
-    transform: translateY(-50px);
+  font-size: 18px;
+  width: 400px;
+  transform: translateY(-50px);
 }
 
 .citationMitch {
-    position: relative;
-    font-size: 18px;
-    width: 400px;
-    text-align: end;
-    transform: translateY(50px);
+  position: relative;
+  font-size: 18px;
+  width: 400px;
+  text-align: end;
+  transform: translateY(50px);
 }
-

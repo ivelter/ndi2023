@@ -4,39 +4,39 @@ $background-color: #ecf0f1;
 $font-color: #34495e;
 
 .genericLayout {
-    .container {
+  .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: $background-color;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    }
+  }
 
-    h1 {
+  h1 {
     color: $primary-color;
-    }
+  }
 
-    h2 {
+  h2 {
     color: $secondary-color;
-    }
+  }
 
-    ul {
+  ul {
     list-style-type: disc;
     margin-left: 20px;
     color: $font-color;
-    }
+  }
 
-    li {
+  li {
     margin-bottom: 10px;
-    }
+  }
 
-    p {
+  p {
     line-height: 1.5;
     color: $font-color;
-    }
+  }
 
-    section {
+  section {
     margin-bottom: 20px;
-    }
+  }
 }

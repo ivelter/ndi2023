@@ -1,35 +1,35 @@
 .divRoot {
-    color: black;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: 32px;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 32px;
 
-    h1 {
-        font-size: 50px;
-        margin-top: 15px;
-    }
+  h1 {
+    font-size: 50px;
+    margin-top: 15px;
+  }
 
-    * {
-        margin-bottom: 20px;
-    }
+  * {
+    margin-bottom: 20px;
+  }
 }
 
 .textclass {
-    width: 70%;
-    align-self: self-start;
-    margin-left: 15px;
+  width: 70%;
+  align-self: self-start;
+  margin-left: 15px;
 }
 
 .linkclass {
-    align-self: self-end;
-    margin-right: 40px;
-    background-color: #ADC178;
-    border-radius: 15px;
-    padding: 5px;
+  align-self: self-end;
+  margin-right: 40px;
+  background-color: #adc178;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .flecheclass {
-    align-self: center;
+  align-self: center;
 }

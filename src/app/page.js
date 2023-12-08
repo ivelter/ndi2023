@@ -1,6 +1,6 @@
-"use client"
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+"use client";
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Degrade from "../../components/Degrade";
 import SN1 from "../../components/slides/SN1";
 import SN2 from "../../components/slides/SN2";
@@ -27,24 +27,24 @@ export default function Home() {
   useEffect(() => {
     const handleKeyDown = (event) => {
       let newCode = [...konamiCode, event.key];
-      console.log(event.key)
+      console.log(event.key);
       console.log(newCode);
       // Check if the konamiCode array matches the reverse Konami code sequence
-      if (newCode.join('').toUpperCase().match('SAUCISSE')) {
+      if (newCode.join("").toUpperCase().match("SAUCISSE")) {
         // Redirect to the external link
-        window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&';
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&";
       }
 
       setKonamiCode((prevCode) => newCode);
     };
 
-    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener("keydown", handleKeyDown);
     };
   }, [konamiCode]);
-  
+
   return (
     <main>
       <SN1></SN1>
@@ -63,7 +63,6 @@ export default function Home() {
       <SN14></SN14>
       <SN15></SN15>
       <SN16></SN16>
-
     </main>
   );
 }
