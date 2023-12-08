@@ -1,13 +1,16 @@
 export default {
     "notes" : [
-        {"touche" : "l", "delais" : 1000},
-        {"touche" : "t", "delais" : 1500},
-        {"touche" : "r", "delais" : 1900},
-        {"touche" : "b", "delais" : 2400},
-        {"touche" : "b", "delais" : 3000, "durée" : 1000},
-        {"touche" : "r", "delais" : 4000},
-        {"touche" : "l", "delais" : 4200, "durée" : 1200},
-        {"touche" : "t", "delais" : 4800},
-        {"touche" : "t", "delais" : 5000}
+        {"touche" : "l", "delais" : 6400},
+        {"touche" : "l", "delais" : 6700},
+        {"touche" : "l", "delais" : 7000},
+        {"touche" : "l", "delais" : 7300},
+        {"touche" : "b", "delais" : 7600},
+        {"touche" : "b", "delais" : 7800},
+        {"touche" : "t", "delais" : 8100},
+        {"touche" : "t", "delais" : 8200},
+        {"touche" : "t", "delais" : 8300},
+        {"touche" : "b", "delais" : 8600},
+        {"touche" : "b", "delais" : 8700},
+        {"touche" : "b", "delais" : 10000}
     ]
 }
