@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f884a9a2-ed45-4aab-b2ce-bc53210dad1e" name="Changes" comment="une bonne base">
+      <change afterPath="$PROJECT_DIR$/public/jeuRythme/ndi20231.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jeuRythme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jeuRythme/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/jeuRythme/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/jeuRythme/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ZDysGY4EvDNPL8VMRtnig23Jq2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -202,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701993148958</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="une bonne base">
+      <option name="closed" value="true" />
+      <created>1701994666552</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701994666552</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
