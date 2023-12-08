@@ -2,10 +2,11 @@ import chart from "./chart.js";
 // Create the application helper and add its render target to the page
 
 const bouton = document.getElementById("bouton");
+const str = document.getElementById("start");
 bouton.onclick = run;
 function run() {
-
   bouton.remove();
+  str.remove();
   let app = new PIXI.Application({
     width: window.innerWidth,
     height: window.innerHeight - 5,
@@ -69,7 +70,11 @@ function run() {
   let highScore = 0;
 
   app.ticker.add((_) => {
-    if(lose) { return }
+    if (lose) {
+      audio && audio.pause();
+      alert(`Vous avez perdu! Votre score est: ${highScore}`);
+      return;
+    }
     ms = Math.round(ms + 1000 / 60);
     if (chart.notes.length == 0 && listeObjets.length == 0) return;
 
@@ -91,7 +96,7 @@ function run() {
         if (listeObjets[0].delais + delaiY <= ms) {
           listeObjets[0].cube.destroy();
           listeObjets.shift();
-          lose = true
+          lose = true;
         }
       }
     }
@@ -106,7 +111,6 @@ function run() {
         obj.cube.y -= speedY;
       }
     });
-
   });
 
   const centreTime = 1500;
