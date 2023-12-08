@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
 import base from "./SN5.module.scss"
