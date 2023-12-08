@@ -9,7 +9,6 @@ export default function SN10() {
       color={all.marron}
       id={10}
     >
-      {/* TODO: réparer le gradient par ici */}
       <div className={base.divRacine}>
         <h2>
           Saviez-vous par exemple que le soleil n&apos;est pas un facteur du
