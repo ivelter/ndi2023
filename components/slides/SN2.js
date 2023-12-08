@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import all from "../../variables.module.scss";
 import Degrade from "../Degrade";
-import FlecheSuiv from "../FlecheSuiv";
-import Image from "next/image";
 import base from "./SN2.module.scss";
 import backgroundImage from "../../public/img/slide2-img.png";
 
@@ -16,7 +14,8 @@ export default function SN2() {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           width: "100%",
-          height: "max(100vh, 1080px)",
+          height: "max(1080px)",
+          zIndex: 0,
         }}
       />
       <div className={base.containerCitation}>
@@ -34,9 +33,6 @@ export default function SN2() {
             du Kentucky
           </p>
         </div>
-      </div>
-      <div className={base.flecheSuiv}>
-        <FlecheSuiv></FlecheSuiv>
       </div>
     </Degrade>
   );

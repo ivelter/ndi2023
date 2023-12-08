@@ -7,6 +7,10 @@
     column-gap: 200px;
 }
 
+.containerCitation, .citationMitch, .citationSarkozy {
+    color: black
+}
+
 .citationSarkozy {
     font-size: 18px;
     width: 400px;
@@ -19,12 +23,5 @@
     width: 400px;
     text-align: end;
     transform: translateY(50px);
-}
-
-.flecheSuiv {
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 

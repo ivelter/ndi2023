@@ -1,6 +1,5 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
-import FlecheSuiv from "../FlecheSuiv"
 import base from "./SN7.module.scss"
 import sn1css from "./SN1.module.scss"
 
@@ -13,7 +12,6 @@ export default function SN7() {
                         Mais on va tous mourir si ça continue!
                     </h1>
                 </div>
-                <FlecheSuiv></FlecheSuiv>
             </div>
         </Degrade>
     )

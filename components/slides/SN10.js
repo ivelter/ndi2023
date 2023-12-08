@@ -1,6 +1,5 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
-import FlecheSuiv from "../FlecheSuiv"
 import base from "./SN10.module.scss"
 
 export default function SN10() {
@@ -23,9 +22,6 @@ export default function SN10() {
                     Dans ce même article, Météo-France en profite pour <i>debunk</i> de nombreuses autres fake news: 
                     le fait que la planète aurait connu pire, ou bien encore que c&apos;est un complot politique...
                 </p>
-                <div className={base.centerDiv}>
-                    <FlecheSuiv></FlecheSuiv>
-                </div>
             </div>
         </Degrade>
     )

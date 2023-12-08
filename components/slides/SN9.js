@@ -1,6 +1,5 @@
 import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
-import FlecheSuiv from "../FlecheSuiv"
 import base from "./SN9.module.scss"
 import Image from "next/image"
 
@@ -21,7 +20,6 @@ export default function SN9() {
                 </div>
                 <div className={base.centerDiv}>
                     <Image src="/img/factCheck.png" alt="illustration fact checking" width={256} height={256} />
-                    <FlecheSuiv></FlecheSuiv>
                 </div>
             </div>
         </Degrade>

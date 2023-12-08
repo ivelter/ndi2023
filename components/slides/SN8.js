@@ -2,7 +2,6 @@ import all from "../../variables.module.scss"
 import Degrade from "../Degrade"
 import base from "./SN8.module.scss"
 
-import FlecheSuiv from "../FlecheSuiv"
 
 import { Lato } from 'next/font/google'
 const fontLato  = Lato({subsets : ['latin'], weight : ['400']})
@@ -27,7 +26,6 @@ export default function SN8() {
                     Ensemble, nous pouvons avancer à l’échelle de chacun tout en apprenant à distinguer le vrai du faux.
                     </p>
 
-                    <FlecheSuiv></FlecheSuiv>
 
                 </div>
 

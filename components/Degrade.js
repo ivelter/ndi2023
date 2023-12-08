@@ -1,3 +1,4 @@
+import FlecheSuiv from "./FlecheSuiv";
 import Slide from "./Slide";
 import css from "./degreda.module.scss";
 
@@ -21,6 +22,7 @@ export default function Degrade({
       }}
     >
       {children}
+      <FlecheSuiv/>
     </div>
   );
 
