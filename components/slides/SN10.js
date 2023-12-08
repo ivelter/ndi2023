@@ -8,6 +8,7 @@ export default function SN10() {
       gradientStart={all["vert-tres-clair"]}
       gradientStop={all.marron}
       color={all.marron}
+      id={10}
     >
       {/* TODO: réparer le gradient par ici */}
       <div className={base.divRacine}>

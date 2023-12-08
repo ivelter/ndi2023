@@ -5,7 +5,7 @@ import base from "./SN12.module.scss";
 
 export default function SN12() {
   return (
-    <Degrade color={all.noir} gradientStart={all["gradientM-N"]}>
+    <Degrade color={all.noir} gradientStart={all["gradientM-N"]} id={12}>
       <div className={base.centerDiv}>
         <Image
           src="/img/feu.jpg"

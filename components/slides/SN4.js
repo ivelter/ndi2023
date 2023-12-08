@@ -9,6 +9,7 @@ export default function SN4() {
       color={all.noir}
       gradientStart={all["gradientC-N"]}
       gradientStop={all["gradientN-MC"]}
+      id={4}
     >
       <div className={sn1css.centerDiv}>
         <div className={base.centerDiv}>

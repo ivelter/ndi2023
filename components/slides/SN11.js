@@ -15,7 +15,7 @@ const fontQuicksand = Quicksand({ weight: ["500"], subsets: ["latin"] });
 
 export default function SN11() {
   return (
-    <Degrade color={all.marron} gradientStart={all["gradientVTR-M"]}>
+    <Degrade color={all.marron} gradientStart={all["gradientVTR-M"]} id={11}>
       <div className={base.conteneur}>
         <div className={base.d1}>
           <p className={`${fontLato.className}`}>

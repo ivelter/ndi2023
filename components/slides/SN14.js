@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function SN14() {
   return (
-    <Degrade color={all.gris}>
+    <Degrade color={all.gris} id={14}>
       <div className={base.divRoot}>
         <h1>Mais dans l&apos;urgence, il faut surtout garder son calme.</h1>
         <div className={base.textclass}>

@@ -9,7 +9,7 @@ const fontQuicksand = Quicksand({ weight: ["700"], subsets: ["latin"] });
 
 export default function SN8() {
   return (
-    <Degrade color={all["vert-tres-clair"]}>
+    <Degrade color={all["vert-tres-clair"]} id={8}>
       <div>
         <h1 className={`${fontQuicksand.className} ${base.texteHaut}`}>
           Eh bien... non

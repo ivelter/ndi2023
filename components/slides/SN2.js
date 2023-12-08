@@ -6,7 +6,7 @@ import backgroundImage from "../../public/img/slide2-img.png";
 
 export default function SN2() {
   return (
-    <Degrade color={all.clair}>
+    <Degrade color={all.clair} id={2}>
       <div
         style={{
           backgroundImage: `url(${backgroundImage.src})`,

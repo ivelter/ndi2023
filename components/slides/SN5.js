@@ -5,7 +5,7 @@ import base from "./SN5.module.scss";
 
 export default function SN5() {
   return (
-    <Degrade color={all["marron-clair"]}>
+    <Degrade color={all["marron-clair"]} id={5}>
       <div className={base.centerDiv}>
         <h1>
           {" "}

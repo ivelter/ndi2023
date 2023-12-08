@@ -2,10 +2,10 @@ import base from "./flechesuiv.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function FlecheSuiv(hrefSuivant = 0) {
+export default function FlecheSuiv({ id }) {
   return (
     <div className={base.FlecheSuiv}>
-      <Link href={hrefSuivant}>
+      <Link href={"#" +String(id)}>
         <Image
           src="/img/downarrow.png"
           alt="Flèche vers le bas"

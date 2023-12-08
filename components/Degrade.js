@@ -28,7 +28,7 @@ export default function Degrade({
   );
 
   return (
-    <Slide>
+    <Slide id={id}>
       {gradientStart != "none" && (
         <div
           className={css.gradStart}

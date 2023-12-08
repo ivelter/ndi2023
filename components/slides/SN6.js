@@ -4,7 +4,7 @@ import base from "./SN6.module.scss";
 
 export default function SN6() {
   return (
-    <Degrade color={all["marron-clair"]}>
+    <Degrade color={all["marron-clair"]} id={6}>
       <div>
         <p className={base.q1}>
           Comment distinguer la vérité du faux dans un flux constant de fausses

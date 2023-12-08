@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function SN9() {
   return (
-    <Degrade color={all["vert-tres-clair"]}>
+    <Degrade color={all["vert-tres-clair"]} id={9}>
       <div className={base.divRacine}>
         <h1>Mais... comment?</h1>
         <div>

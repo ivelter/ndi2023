@@ -8,7 +8,7 @@ const DangerousRawHtml = ({ html = "" }) => (
 
 export default function SN16() {
   return (
-    <Degrade color="#2E3033">
+    <Degrade color="#2E3033" id={16}>
       <div className={base.containerLink}>
         <div className={base.partiGauche}>
           <div>

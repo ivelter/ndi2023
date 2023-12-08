@@ -6,7 +6,7 @@ export default function SN15() {
   return (
     // TODO: note à thumus, je pense qu'il faudrait ajuster manuellement la hauteur de la page pour faire ce que je veux faire
     // mais j'ai pas envie de tout casser :cryemoji:
-    <Degrade color={all.gris}>
+    <Degrade color={all.gris} id={15}>
       <div className={base.divRoot}>
         <div className={base.firstHalf}>
           <h1>Vous êtes arrivés à la fin de l&apos;expérience.</h1>

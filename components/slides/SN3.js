@@ -15,7 +15,7 @@ const fontLato = Lato({
 
 export default function SN3() {
   return (
-    <Degrade color={all.vert}>
+    <Degrade color={all.vert} id={3}>
       <div className={`${base.divCentre}`}>
         <p className={`${base.citation} ${Pacis.className}`}>
           “Le concept du réchauffement climatique a été créé par et pour les

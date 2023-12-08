@@ -9,6 +9,7 @@ export default function SN7() {
       color="#fff"
       gradientStart={all["gradientMC-B"]}
       gradientStop={all["gradientB-VTC"]}
+      id={7}
     >
       <div className={sn1css.centerDiv}>
         <div className={base.centerDiv}>
