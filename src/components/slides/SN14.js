@@ -7,7 +7,7 @@ export default function SN14() {
   return (
     <Degrade color={all.gris} id={14}>
       <div className={base.divRoot}>
-        <h1>Mais dans l&apos;urgence, il faut surtout garder son <span className={"text-white"}>calme</span>.</h1>
+        <h1>Mais dans l&apos;urgence, il faut surtout garder son <Link href={"/conseils"}><span className={"text-white"}>calme</span></Link>.</h1>
         <div className={base.textclass}>
           <p>
             Effectuez des actions à <span className={"text-white"}>votre échelle</span>. Parlez en à vos proches.
