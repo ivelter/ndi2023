@@ -1,4 +1,5 @@
 import chart from "./chart.js";
+import PIXI from "pixi.js"
 // Create the application helper and add its render target to the page
 let app = new PIXI.Application({
     width: 900,
