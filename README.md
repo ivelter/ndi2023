@@ -7,7 +7,7 @@ Le projet de la `CoopTeam` pour l'édition 2023 de la [Nuit De l'Info](https://w
 
 Les magnifiques membres de la `CoopTeam`
 
-- Ilan VELTER, 
+- Ilan VELTER
 - Thomas QUEMIN 
 - Alexis BASTIDE 
 - Eliott BASSIER
@@ -15,8 +15,38 @@ Les magnifiques membres de la `CoopTeam`
 - Antonin CHABAUD-PECH
 - Théo DUBERNET
 
+## Défis réalisés
 
-## Installation
+Les défis réalisés sont: 
+- [Le défi principal](https://www.nuitdelinfo.com/inscription/defis/174) (pour lancer, voir suite)
+- [Easter eggs par Code Troopers](https://www.nuitdelinfo.com/inscription/defis/328)
+  - ici mettre instructions selon modalités de rendu
+- [UX/UI cauchemardesque par RedLab](https://www.nuitdelinfo.com/inscription/defis/396)
+  - pareil
+- [MOVAI CODE par Coddity](https://www.nuitdelinfo.com/inscription/defis/410)
+  - pareil
+- [Jeu de rythme par Rhythm Freaks](https://www.nuitdelinfo.com/inscription/defis/413)
+  - pareil
+- [Retroverse Pipeline par l'Ecole Polytechnique de Sousse](https://www.nuitdelinfo.com/inscription/defis/421)
+  - pareil     
+
+## Fonctionnalités
+- Une page d'accueil "slides" qui résume la problématique
+- Deux autres pages qui approfondissent la problématique des fake news et de la lutte contre le changement climatique à son échelle
+- Un jeu de rythme sur le thème du climat (voir défis)
+  - Présenter et comment y accéder ici
+- Des easter eggs:
+  - Les lister ici
+- Une fonction mal écrite:
+  - La décrire ici
+- Des pipelines de CI/CD, et entre autre une pipeline Docker
+  - Décrire + lien dockerHub ici
+
+## Lien d'accès
+
+Mettre ici une fois qu'il sera upload
+
+## Détails sur l'installation en local
 
 Pour installer le projet, il y a deux façon :
 - Soit par [docker](https://www.docker.com/)
