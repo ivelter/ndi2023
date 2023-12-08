@@ -1,4 +1,3 @@
-
 # NDI édition 2023
 
 Le projet de la `CoopTeam` pour l'édition 2023 de la [Nuit De l'Info](https://www.nuitdelinfo.com/)!
@@ -7,18 +6,18 @@ Le projet de la `CoopTeam` pour l'édition 2023 de la [Nuit De l'Info](https://w
 
 Les magnifiques membres de la `CoopTeam`
 
-- Ilan VELTER, 
-- Thomas QUEMIN 
-- Alexis BASTIDE 
+- Ilan VELTER,
+- Thomas QUEMIN
+- Alexis BASTIDE
 - Eliott BASSIER
-- Maévann POUPON 
+- Maévann POUPON
 - Antonin CHABAUD-PECH
 - Théo DUBERNET
-
 
 ## Installation
 
 Pour installer le projet, il y a deux façon :
+
 - Soit par [docker](https://www.docker.com/)
 - Soit manuellement
 
@@ -34,7 +33,7 @@ docker buildx build . -t ndi2023-Coopteam
 
 À partir de là, il manque plus qu'à lancer le container.
 
-```sh 
+```sh
 docker run -p 3000:80 -it ndi2023-Coopteam
 ```
 
@@ -44,13 +43,13 @@ Pour changer toute configuration, vous devez changer les fichiers qui se trouve 
 
 ### Manuellement
 
-Pour pouvoir build / utiliser le projet, je vous recommande de voir le [tuto](https://github.com/ivelter/ndi2023/blob/setup/tutos/out/noir%26blanc.pdf), chapitre `II.3`, `II.5` à `II.6` et chapitre `V`. 
+Pour pouvoir build / utiliser le projet, je vous recommande de voir le [tuto](https://github.com/ivelter/ndi2023/blob/setup/tutos/out/noir%26blanc.pdf), chapitre `II.3`, `II.5` à `II.6` et chapitre `V`.
 
 Je vais rapidement passer dessus.
 
 Téléchargez [NodeJS](https://nodejs.org/en). Ensuite, téléchargez le projet. Rentrez dans le répétoire du projet puis à partir de là, lancez un terminal et rentrez cette commande:
 
-```sh 
+```sh
 npm ci
 ```
 
@@ -76,16 +75,16 @@ npm run dev
 
 Un message devrait s'afficher avec une URL pour se rendre sur le site.
 
-
 ## Technologies employées
 
 - [NodeJS](https://nodejs.org/en): `JavaScript runtime environment` orienté serveur majoritairement
 - [ReactJS](https://fr.legacy.reactjs.org/): Une bibliothèque JavaScript pour créer des interfaces utilisateurs
 - [NextJS](https://nextjs.org/): Un framework full-stack pour créer des applications orienté web
 - [SASS](https://sass-lang.com/): Un framework css qui permet la simplication de l'écriture du css
-- [Tailwindcss](https://tailwindcss.com/): Un framework css qui permet d'utiliser des classes prédéfinies pour une écrire beaucoup plus rapide 
+- [Tailwindcss](https://tailwindcss.com/): Un framework css qui permet d'utiliser des classes prédéfinies pour une écrire beaucoup plus rapide
 
 ### Optionnel
+
 - [Docker](https://www.docker.com/): Plateforme permettant de lancer certaines applications dans des conteneurs. Augmente la portabilité du code
 - [Nginx](https://www.nginx.com/): Serveur web permettant d'exposer son site web.
 

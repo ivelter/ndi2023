@@ -1,0 +1,27 @@
+.texteHaut {
+  font-weight: bold;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraphe {
+  margin-left: 3%;
+  font-size: 60px;
+  align-items: baseline;
+  margin-bottom: 3%;
+}
+
+.conteneurCentre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conteneurCentre :nth-child(3) {
+  margin-top: 3%;
+  justify-content: center;
+  justify-items: center;
+}

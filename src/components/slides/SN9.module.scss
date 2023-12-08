@@ -1,0 +1,35 @@
+.divRacine {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 5vh;
+  }
+
+  div {
+    font-size: 20px;
+    margin: 5px 0 0 20px;
+    ul {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.centerDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  * {
+    margin: auto;
+  }
+
+  img {
+    margin-bottom: 70px;
+  }
+}

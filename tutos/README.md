@@ -1,6 +1,7 @@
-# Tuto pour la NDI 
+# Tuto pour la NDI
 
 ## Compiler
+
 Pour compiler il vous faut [typst](https://github.com/typst/typst), puis il faut effectuer une fois installé:
 
 ```sh
