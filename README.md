@@ -36,7 +36,8 @@ Les défis réalisés sont:
 - Un jeu de rythme sur le thème du climat (voir défis)
   - Présenter et comment y accéder ici
 - Des easter eggs:
-  - Les lister ici
+  - Quelque chose se passe lorsque vous cliquez plusieurs fois sur le soleil sur la page d'accueil
+  - Quelque chose se passe si vous tapes "saucisse" au clavier sur la page d'accueil
 - Une fonction mal écrite:
   - La décrire ici
 - Des pipelines de CI/CD, et entre autre une pipeline Docker
