@@ -1,3 +1,4 @@
+import Link from "next/link";
 import all from "../../variables.module.scss";
 import Degrade from "../Degrade";
 import base from "./SN8.module.scss";
@@ -12,7 +13,7 @@ export default function SN8() {
     <Degrade color={all["vert-tres-clair"]} id={8}>
       <div>
         <h1 className={`${fontQuicksand.className} ${base.texteHaut}`}>
-          Eh bien... non
+          Eh bien... <Link href="/antifakenews">non</Link>
         </h1>
 
         <div className={base.conteneurCentre}>

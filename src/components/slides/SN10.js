@@ -5,12 +5,10 @@ import base from "./SN10.module.scss";
 export default function SN10() {
   return (
     <Degrade
-      gradientStart={all["vert-tres-clair"]}
-      gradientStop={all.marron}
+      gradientStart={all["gradientVTC-M"]}
       color={all.marron}
       id={10}
     >
-      {/* TODO: réparer le gradient par ici */}
       <div className={base.divRacine}>
         <h2>
           Saviez-vous par exemple que le soleil n&apos;est pas un facteur du
