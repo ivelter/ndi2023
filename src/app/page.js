@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Slides from "../../components/slides/export";
+import Slides from "../components/slides/export";
 
 export default function Home() {
   const [konamiCode, setKonamiCode] = useState([]);
