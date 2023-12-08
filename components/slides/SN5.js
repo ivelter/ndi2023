@@ -7,9 +7,9 @@ export default function SN5() {
     return (
         <Degrade color={all["marron-clair"]}>
             <div className={base.centerDiv}>
-                <h1> Le <b>changement climatique</b> est une réalité qui n'est plus à <b className={base.redText}> démontrer </b>.</h1>
-                <b className={base.leftText}> <b className={base.souligner}> Les scientifiques du GIEC sont catégoriques :</b> <br></br>"les activités humaines, principalement par le biais des émissions de gaz à effet de serre, ont sans équivoque provoqué la réchauffement de la planète"</b>
-                <h1><b>Alors, comment réagir face à l'urgence?</b></h1>
+                <h1> Le <b>changement climatique</b> est une réalité qui n&apos;est plus à <b className={base.redText}> démontrer </b>.</h1>
+                <b className={base.leftText}> <b className={base.souligner}> Les scientifiques du GIEC sont catégoriques :</b> <br></br>&quot;les activités humaines, principalement par le biais des émissions de gaz à effet de serre, ont sans équivoque provoqué la réchauffement de la planète&quot;</b>
+                <h1><b>Alors, comment réagir face à l&apos;urgence?</b></h1>
                 <FlecheSuiv></FlecheSuiv>
             </div>
         </Degrade>
